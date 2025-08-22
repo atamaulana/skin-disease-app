@@ -52,8 +52,8 @@ def predict(image: Image.Image):
 # === Streamlit UI ===
 st.set_page_config(page_title="Skin Disease Classification", layout="wide")
 
-st.title("🩺 Skin Disease Detection App")
-st.write("Upload foto kulit untuk mendeteksi kemungkinan penyakit menggunakan model deep learning.")
+st.title("🩺 Deteksi dini masalah kulit wajah")
+st.write("Unggah Foto untuk Mendeteksi Penyakit Kulit pada Wajah.")
 
 uploaded_file = st.file_uploader("📤 Upload image", type=["jpg", "jpeg", "png"])
 
